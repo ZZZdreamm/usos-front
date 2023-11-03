@@ -17,7 +17,12 @@
   -webkit-text-size-adjust: 100%;
   --bg-color: #e7e7e7;
   --container-color: #efeff1;
-  --text-color: #2f2f2f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 
@@ -37,7 +42,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--bg-color);
-  color: var(--text-color);
+
 }
 
 h1 {
@@ -64,15 +69,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-// @media (prefers-color-scheme: light) {
-//   :root {
-//     color: #213547;
-//     background-color: #ffffff;
-//   }
-//   a:hover {
-//     color: #747bff;
-//   }
-//   button {
-//     background-color: #f9f9f9;
-//   }
-// }
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
