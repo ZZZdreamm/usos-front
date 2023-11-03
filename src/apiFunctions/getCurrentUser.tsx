@@ -6,8 +6,6 @@ export function getCurrentUser() {
 //     return Promise.reject("No access token set.");
 //   }
   return new Promise<{ data: any }>((res, rej) => {
-    rej();
-    throw Error;
     res({ data: "mocked value" });
   });
   //   return axiosBase.get("/user/me", {
