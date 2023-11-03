@@ -1,0 +1,10 @@
+.appLayout {
+  width: 60vw;
+  height: 100%;
+  @include desktop {
+    width: 100vw;
+  }
+  @include largeDesktop {
+    width: 80vw;
+  }
+}
