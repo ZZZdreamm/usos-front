@@ -1,5 +1,5 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
-import { routes } from "../config/routes";
+import { privateRoutes, routes } from "../config/routes";
 
 export const RoutesProvider = () => {
   return (
@@ -7,6 +7,11 @@ export const RoutesProvider = () => {
       <Routes>
         {routes.map((route, index) => (
           <Route key={index} path={route.path} element={route.element} />
+        ))}
+        {privateRoutes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} >
+            
+          </Route>
         ))}
       </Routes>
     </HashRouter>

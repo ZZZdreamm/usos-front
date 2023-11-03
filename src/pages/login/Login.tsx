@@ -1,19 +1,18 @@
 import { useNavigate } from "react-router-dom";
-import { getRequestToken } from "../../apiFunctions/login";
-import { logo } from "../../logo";
+import "./style.scss";
+import { Image } from "../../common/Image/Image";
 
-export const Home = () => {
+export const Login = () => {
   const navigate = useNavigate();
   const getToken = async () => {
     // const response = await getRequestToken();
     // console.log(response);
-    navigate("/offers");
+    navigate("/");
   };
 
-  let logoComponent = logo("/TradeEITI.png");
   return (
     <>
-      {logoComponent}
+      <Image src="TradeEITI.png"/>
       <br></br>
       <button onClick={getToken} id="loginButton">
         Login
