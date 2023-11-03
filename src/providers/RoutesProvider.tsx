@@ -9,9 +9,7 @@ export const RoutesProvider = () => {
           <Route key={index} path={route.path} element={route.element} />
         ))}
         {privateRoutes.map((route, index) => (
-          <Route key={index} path={route.path} element={route.element} >
-            
-          </Route>
+          <Route key={index} path={route.path} element={route.element} ></Route>
         ))}
       </Routes>
     </HashRouter>

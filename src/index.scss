@@ -9,7 +9,6 @@
   color: rgba(255, 255, 255, 0.87);
   /* background-color: #242424; */
 
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +16,7 @@
   -webkit-text-size-adjust: 100%;
   --bg-color: #e7e7e7;
   --container-color: #efeff1;
+  --text-color: #2f2f2f;
 }
 
 * {
@@ -24,7 +24,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 
 a {
   font-weight: 500;
@@ -42,7 +41,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--bg-color);
-
+  color: var(--text-color);
 }
 
 h1 {
@@ -81,4 +80,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
