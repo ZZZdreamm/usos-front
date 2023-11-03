@@ -1,3 +1,5 @@
+@import "./styles/extends.scss";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,6 +15,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --bg-color: #e7e7e7;
+  --container-color: #efeff1;
 }
 
 
@@ -31,7 +35,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: steelblue;
+  background-color: var(--bg-color);
 
 }
 

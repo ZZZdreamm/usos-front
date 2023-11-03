@@ -1,24 +1,14 @@
-import './App.css'
-import { logo } from "./logo"
-import { getRequestToken } from './apiFunctions/login'
+import "./App.css";
+import { PwBar } from "./components/PwBar/PwBar";
+import { RoutesProvider } from "./providers/RoutesProvider";
 
 function App() {
-
-
-  const getToken = async () => {
-    const response = await getRequestToken()
-    console.log(response)
-  }
-
-  let logoComponent = logo('/TradeEITI.png')
-
   return (
-    <main>
-      {logoComponent}
-      <br></br>
-      <button onClick={getToken} id="loginButton">Login</button>
-    </main>
-  )
+    <>
+      <PwBar />
+      <RoutesProvider></RoutesProvider>
+    </>
+  );
 }
 
-export default App
+export default App;
