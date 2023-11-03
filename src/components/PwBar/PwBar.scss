@@ -1,7 +1,7 @@
 .pwBar {
     background-color: rgb(45, 50, 72);
     height: 100px;
-    width: calc(100% - 20px);
+    width: 100%;
     padding: 0px 10px;
     color: white;
     display: flex;
@@ -19,7 +19,7 @@
 
   .lowerBar {
     height: 10px;
-    width: calc(100% + 20px);
+    width: 100%;
     display: block;
     position: absolute;
     background-color: white;
