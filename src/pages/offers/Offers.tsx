@@ -1,4 +1,4 @@
-import { withPrivateRoute } from "../../common/WithPrivateRoute/WithPrivateRoute";
+import { withPrivateRoute } from "../../common/withPrivateRoute/WithPrivateRoute";
 
 const Offers = () => {
   return (

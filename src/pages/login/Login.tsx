@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./style.scss";
-import { Image } from "../../common/Image/Image";
+import { Image } from "../../common/image/Image";
 
 export const Login = () => {
   const navigate = useNavigate();

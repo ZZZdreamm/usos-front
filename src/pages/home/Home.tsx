@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 // import { getRequestToken } from "../../apiFunctions/login";
-import {Image} from "../../common/Image/Image"
-import { withPrivateRoute } from "../../common/WithPrivateRoute/WithPrivateRoute";
+import {Image} from "../../common/image/Image"
+import { withPrivateRoute } from "../../common/withPrivateRoute/WithPrivateRoute";
 
 const Home = () => {
   const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import { Image } from "../../common/Image/Image";
+import { Image } from "../../common/image/Image";
 import "./PwBar.scss";
 
 export const PwBar = () => {

@@ -1,4 +1,4 @@
-import { Image } from "../../common/Image/Image";
+import { Image } from "../../common/image/Image";
 import "./style.scss";
 
 export function Footer() {
