@@ -4,27 +4,27 @@
     width: calc(100% - 20px);
     padding: 0px 10px;
     color: white;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-.pwBar h2 {
-    display: inline;
-    position: relative;
-    top: -30px;
+  .pwBar h2 {
     margin-left: 10px;
-    align-self: left;
-}
+  }
 
-.pwBar img {
+  .pwBar img {
     height: 90%;
-}
+  }
 
-.lowerBar {
+  .lowerBar {
     height: 10px;
     width: calc(100% + 20px);
-    position: relative;
+    display: block;
+    position: absolute;
     background-color: white;
     bottom: 10px;
     left: -10px;
     opacity: 0.1;
-}
+  }
+
