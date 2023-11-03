@@ -1,0 +1,25 @@
+.pwBar {
+    background: rgb(105, 25, 148), 90;
+    height: 100px;
+    width:100%;
+  }
+
+.pwBar h2 {
+    display: inline;
+    position: relative;
+    top: 10px;
+}
+
+.pwBar img {
+    display: inline;
+    height: 90%;
+}
+
+.lowerBar {
+    height: 10px;
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    bottom: 0px;
+    opacity: 0.1;
+}
