@@ -1,25 +1,27 @@
 .pwBar {
-    background: rgb(105, 25, 148), 90;
+    background-color: rgb(45, 50, 72);
     height: 100px;
-    width:100%;
+    width: calc(100% - 20px);
+    padding: 0px 10px 0px 10px;
   }
 
 .pwBar h2 {
     display: inline;
     position: relative;
-    top: 10px;
+    top: -30px;
+    margin-left: 10px;
 }
 
 .pwBar img {
-    display: inline;
     height: 90%;
 }
 
 .lowerBar {
     height: 10px;
-    width: 100%;
+    width: calc(100% + 20px);
     position: relative;
-    background-color: blue;
-    bottom: 0px;
+    background-color: white;
+    bottom: 10px;
+    left: -10px;
     opacity: 0.1;
 }
