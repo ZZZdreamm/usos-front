@@ -17,6 +17,7 @@
   --bg-color: #e7e7e7;
   --container-color: #efeff1;
   --text-color: #2f2f2f;
+  --white-color: #ffffff;
 }
 
 * {
@@ -27,8 +28,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 a:hover {
   color: #535bf2;
@@ -81,7 +85,71 @@ button:focus-visible {
   }
 }
 
-main{
+main {
   width: 100%;
   min-height: 90vh;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.875rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-2sm {
+  font-size: 0.75rem;
+}
+
+.text-3sm {
+  font-size: 0.625rem;
+}
+
+.text-4sm {
+  font-size: 0.5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
 }
