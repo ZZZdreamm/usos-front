@@ -1,10 +1,13 @@
+import React from "react";
 import { AuthProvider } from "./AuthProvider";
-import { RoutesProvider } from "./RoutesProvider";
+interface Props {
+  children?: React.ReactNode;
+}
 
-export function Providers() {
+export function Providers({ children }: Props) {
   return (
     <AuthProvider>
-      <RoutesProvider></RoutesProvider>
+      {children}
     </AuthProvider>
   );
 }

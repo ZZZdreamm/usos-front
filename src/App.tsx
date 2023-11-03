@@ -4,13 +4,16 @@ import Authorized from "./common/Authorized/Authorized";
 import { PwBar } from "./components/PwBar/PwBar";
 import { TopBar } from "./components/TopBar/TopBar";
 import { Providers } from "./providers/Providers";
+import { RoutesProvider } from "./providers/RoutesProvider";
 
 function App() {
   return (
     <AppLayout>
-      <Authorized isAuthorized={<TopBar />} />
-      <Authorized isAuthorized={<PwBar />} />
-      <Providers />
+      <Providers>
+        <Authorized isAuthorized={<TopBar />} />
+        <Authorized isAuthorized={<PwBar />} />
+        <RoutesProvider />
+      </Providers>
     </AppLayout>
   );
 }
