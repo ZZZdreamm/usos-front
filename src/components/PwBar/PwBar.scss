@@ -1,18 +1,24 @@
 .pwBar {
-    background-color: rgb(58, 65, 93);
-    height: 100px;
-    width: 100%;
-    padding: 10px 20px;
-    color: white;
+  background-color: rgb(58, 65, 93);
+  height: 100px;
+  width: 100%;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-left {
+    height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 1rem;
   }
+}
 
-  .pwBar h2 {
-    margin-left: 10px;
-  }
+.pwBar h2 {
+  margin-left: 10px;
+}
 
-  .pwBar img {
-    height: 90%;
-  }
+.pwBar img {
+  height: 90%;
+}

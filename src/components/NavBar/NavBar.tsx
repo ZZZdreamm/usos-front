@@ -23,12 +23,12 @@ const titleAndNavigation = [
 export const NavBar = () => {
   const navigate = useNavigate();
   return (
-      <div className="navBar">
+      <nav className="navBar">
         {titleAndNavigation.map((item) => (
           <div className="menuTile" onClick={() => navigate(item.navigation)}>
             {item.title}
           </div>
         ))}
-      </div>
+      </nav>
   );
 };

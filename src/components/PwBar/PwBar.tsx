@@ -4,8 +4,10 @@ import "./PwBar.scss";
 export const PwBar = () => {
   return (
     <div className="pwBar">
-      <Image src="logoPW.png" alt="pwLogo" />
-      <h4>Politechnikum Warszawskie</h4>
+      <div className="pwBar-left">
+        <Image src="logoPW.png" alt="pwLogo" />
+        <h4>Politechnikum Warszawskie</h4>
+      </div>
       <Image src="TradeEITI.png" alt="pwBuilding" />
     </div>
   );
