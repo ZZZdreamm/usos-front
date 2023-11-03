@@ -1,8 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { getRequestToken } from "../../apiFunctions/login";
+// import { getRequestToken } from "../../apiFunctions/login";
 import { logo } from "../../logo";
+import { withPrivateRoute } from "../../common/WithPrivateRoute/WithPrivateRoute";
 
-export const Home = () => {
+const Home = () => {
   const navigate = useNavigate();
   const getToken = async () => {
     // const response = await getRequestToken();
@@ -21,3 +22,5 @@ export const Home = () => {
     </>
   );
 };
+
+export const PrivateHome = withPrivateRoute(Home);
