@@ -19,6 +19,12 @@
   --container-color: #efeff1;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 a {
   font-weight: 500;
@@ -75,3 +81,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
