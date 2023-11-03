@@ -1,11 +1,11 @@
 import { withPrivateRoute } from "../../common/WithPrivateRoute/WithPrivateRoute";
 
-const MyOffers = () => {
+function Courses() {
   return (
     <div>
-      <h1>MyOffers</h1>
+      <h1>Courses</h1>
     </div>
   );
-};
+}
 
-export const PrivateMyOffers = withPrivateRoute(MyOffers);
+export const PrivateCourses = withPrivateRoute(Courses);

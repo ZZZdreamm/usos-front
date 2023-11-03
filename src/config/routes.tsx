@@ -1,3 +1,4 @@
+import { PrivateCourses } from "../pages/courses/Courses";
 import { PrivateForLecturers } from "../pages/forLecturers/ForLecturers";
 import { PrivateHome } from "../pages/home/Home";
 import { Login } from "../pages/login/Login";
@@ -12,6 +13,7 @@ export const privateRoutes = [
   { path: "/myOffers", element: <PrivateMyOffers /> },
   { path: "/news", element: <PrivateNews /> },
   { path: "/forLecturers", element: <PrivateForLecturers /> },
+  { path: "/courses", element: <PrivateCourses /> },
   { path: "/", element: <PrivateHome /> },
   { path: "*", element: <PrivateHome /> },
 ];

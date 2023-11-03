@@ -1,10 +1,10 @@
 import { withPrivateRoute } from "../../common/WithPrivateRoute/WithPrivateRoute";
 
-export const ForLecturers = () => {
+const ForLecturers = () => {
   return (
     <div>
       <h1>Dla wykładowcy</h1>
-      <br/>
+      <br />
       <iframe
         width="853"
         height="480"
