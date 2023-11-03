@@ -18,7 +18,7 @@ const titleAndNavigation = [
     title: "DLA WYKŁADOWCY",
     navigation: "forLecturers",
   },
-  { title: "Kursy", navigation: "courses" },
+  { title: "KURSY", navigation: "courses" },
 ];
 
 export const NavBar = () => {

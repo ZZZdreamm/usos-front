@@ -6,5 +6,5 @@ interface Props {
 }
 
 export function AppLayout({ children }: Props) {
-  return <main className="appLayout">{children}</main>;
+  return <div className="appLayout">{children}</div>;
 }
