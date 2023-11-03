@@ -1,0 +1,23 @@
+.navBar {
+    background-color: rgb(181, 188, 216);
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menuTile {
+    font-weight: bolder;
+    flex: 1;
+    height: 100%;
+    border: 5px rgb(69, 95, 115) outset;
+    padding: 4px;
+  }
+
+  .menuTile:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    border: inset 5px rgb(69, 95, 115);
+  }
