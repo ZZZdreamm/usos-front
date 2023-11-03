@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { privateRoutes, routes } from "../config/routes";
+import { withPrivateRoute } from "../common/WithPrivateRoute/WithPrivateRoute";
 
 export const RoutesProvider = () => {
   return (

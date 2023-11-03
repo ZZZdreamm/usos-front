@@ -18,17 +18,18 @@ const titleAndNavigation = [
     title: "DLA WYKŁADOWCY",
     navigation: "forLecturers",
   },
+  { title: "Kursy", navigation: "courses" },
 ];
 
 export const NavBar = () => {
   const navigate = useNavigate();
   return (
-      <nav className="navBar">
-        {titleAndNavigation.map((item) => (
-          <div className="menuTile" onClick={() => navigate(item.navigation)}>
-            {item.title}
-          </div>
-        ))}
-      </nav>
+    <nav className="navBar">
+      {titleAndNavigation.map((item) => (
+        <div className="menuTile" onClick={() => navigate(item.navigation)}>
+          {item.title}
+        </div>
+      ))}
+    </nav>
   );
 };
