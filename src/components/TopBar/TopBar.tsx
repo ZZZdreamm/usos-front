@@ -4,7 +4,9 @@ export const TopBar = () => {
   return (
     <>
       <div className="topBar">
-        <span>Politechnikum Warszawskie- Poboczny system uwierzytelniania</span>
+        <span><b>Politechnikum Warszawskie</b> - Poboczny system uwierzytelniania
+        </span>
+        <span>Status zalogowania | Flaga | <a href="https://www.youtube.com/watch?si=zOgpOZvD0Eje9471&v=PjZi1zlxXRA&feature=youtu.be">Zaloguj się</a></span>
       </div>
     </>
   );
