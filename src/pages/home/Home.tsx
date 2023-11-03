@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 // import { getRequestToken } from "../../apiFunctions/login";
-import { logo } from "../../logo";
+import {Image} from "../../common/Image/Image"
 import { withPrivateRoute } from "../../common/WithPrivateRoute/WithPrivateRoute";
 
 const Home = () => {
@@ -11,10 +11,9 @@ const Home = () => {
     navigate("/offers");
   };
 
-  let logoComponent = logo("/TradeEITI.png");
   return (
     <>
-      {logoComponent}
+      <Image src="TradeEITI.png" alt="logo"/>
       <br></br>
       <button onClick={getToken} id="loginButton">
         Login

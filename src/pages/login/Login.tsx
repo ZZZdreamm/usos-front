@@ -11,12 +11,12 @@ export const Login = () => {
   };
 
   return (
-    <>
+    <article className="login">
       <Image src="TradeEITI.png"/>
       <br></br>
       <button onClick={getToken} id="loginButton">
         Login
       </button>
-    </>
+    </article>
   );
 };
