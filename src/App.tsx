@@ -7,18 +7,21 @@ import { TopBar } from "./components/TopBar/TopBar";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Providers } from "./providers/Providers";
 import { RoutesProvider } from "./providers/RoutesProvider";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <AppLayout>
-      <Providers>
-        <Authorized isAuthorized={<TopBar />} />
-        <Authorized isAuthorized={<PwBar />} />
-        <Authorized isAuthorized={<NavBar />} />
-        <RoutesProvider />
-        <Authorized isAuthorized={<Footer />} />
-      </Providers>
-    </AppLayout>
+    <HashRouter>
+      <AppLayout>
+        <Providers>
+          <Authorized isAuthorized={<TopBar />} />
+          <Authorized isAuthorized={<PwBar />} />
+          <Authorized isAuthorized={<NavBar />} />
+          <RoutesProvider />
+          <Authorized isAuthorized={<Footer />} />
+        </Providers>
+      </AppLayout>
+    </HashRouter>
   );
 }
 
