@@ -7,10 +7,9 @@ export const PwBar = () => {
       <div className="pwBar">
 
       <Image src="logoPW.png" alt="pwLogo" />
-      <h2>Politechnikum Warszawskie</h2>
+      <h4>Politechnikum Warszawskie</h4>
       <Image src="TradeEITI.png" alt="pwBuilding"/>
 
-      <div className="lowerBar"></div>
     </div>
 
     </>

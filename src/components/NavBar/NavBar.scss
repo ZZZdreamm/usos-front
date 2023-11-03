@@ -12,12 +12,12 @@
     font-weight: bolder;
     flex: 1;
     height: 100%;
-    border: 5px rgb(69, 95, 115) outset;
+    border: 5px transparent solid;
     padding: 4px;
   }
 
   .menuTile:hover{
     cursor: pointer;
     text-decoration: underline;
-    border: inset 5px rgb(69, 95, 115);
+    border: 5px transparent solid;
   }
