@@ -33,6 +33,7 @@ export function useCurrentUser() {
     });
   }, [authenticated, currentUser]);
 
+
   return {
     mounted,
     currentUser,
