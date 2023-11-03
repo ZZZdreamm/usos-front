@@ -1,4 +1,4 @@
-import "./topBar.scss";
+import "./TopBar.scss";
 
 export const TopBar = () => {
   return (
