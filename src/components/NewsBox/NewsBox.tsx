@@ -24,6 +24,7 @@ export const NewsBox = ({news}: NewsProps) => {
                     <div className="newsContent">
                         {info.content}
                     </div>
+                    <hr />
                 </div>
                 </>
             ))}
