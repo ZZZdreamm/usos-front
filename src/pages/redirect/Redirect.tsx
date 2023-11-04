@@ -8,7 +8,7 @@ export function Redirect() {
   useEffect(() => {
     localStorage.setItem("token", searchParams.get("token") || "");
     localStorage.setItem("secret", searchParams.get("secret") || "");
-    const response = axios
+    axios
       .get(
         "https://apps.usos.pw.edu.pl/services/courses/course?course_id=103A-INxxx-ISP-BD1",
         {
