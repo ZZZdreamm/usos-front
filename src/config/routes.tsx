@@ -5,8 +5,9 @@ import { Login } from "../pages/login/Login";
 import { PrivateMyOffers } from "../pages/myOffers/MyOffers";
 import { PrivateNews } from "../pages/news/News";
 import { PrivateOffers } from "../pages/offers/Offers";
+import { Redirect } from "../pages/redirect/Redirect";
 
-export const routes = [{ path: "/login", element: <Login /> }];
+export const routes = [{ path: "/login", element: <Login /> }, { path: "/redirect", element: <Redirect /> }];
 
 export const privateRoutes = [
   { path: "/offers", element: <PrivateOffers /> },

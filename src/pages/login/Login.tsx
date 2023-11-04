@@ -1,18 +1,17 @@
-import { useNavigate } from "react-router-dom";
 import "./style.scss";
 import { Image } from "../../common/image/Image";
+import { getRequestToken } from "../../apiFunctions/login";
 
 export const Login = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const getToken = async () => {
-    // const response = await getRequestToken();
-    // console.log(response);
-    navigate("/");
+    const authorizeUrl = await getRequestToken();
+    window.location.href = authorizeUrl;
   };
 
   return (
     <article className="login">
-      <Image src="TradeEITI.png"/>
+      <Image src="TradeEITI.png" />
       <br></br>
       <button onClick={getToken} id="loginButton">
         Login
